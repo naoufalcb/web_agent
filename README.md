@@ -1,20 +1,3 @@
-<!--
----
-title: Web Agent
-emoji: 🌐
-colorFrom: blue
-colorTo: yellow
-sdk: gradio
-sdk_version: 5.23.1
-app_file: app.py
-pinned: false
-tags:
-- smolagents
-- agent
-- smolagent
----
--->
-
 # Web Search Agent
 
 A powerful AI-powered web agent that can search the web, summarize webpages, and provide time information across different timezones.
@@ -77,3 +60,19 @@ This project is licensed under the Apache License 2.0 - see the LICENSE file for
 - Built with [Gradio](https://gradio.app/)
 - Uses [SmoLAgents](https://github.com/huggingface/smol-ai-agents) framework
 - Azure AI for inference
+
+
+---
+title: Web Agent
+emoji: 🌐
+colorFrom: blue
+colorTo: yellow
+sdk: gradio
+sdk_version: 5.23.1
+app_file: app.py
+pinned: false
+tags:
+- smolagents
+- agent
+- smolagent
+---
