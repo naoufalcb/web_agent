@@ -19,7 +19,7 @@ A powerful AI-powered web agent that can search the web, summarize webpages, and
 ## 🚀 Demo
 
 Try out the live demo on Hugging Face Spaces:  
-[👉 View Demo Here 🎈](https://huggingface.co/spaces/naoufalcb/web_agent)
+## [👉 View Demo Here 🎈](https://huggingface.co/spaces/naoufalcb/web_agent)
 
 ## ✨ Features
 
