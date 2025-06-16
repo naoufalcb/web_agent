@@ -10,6 +10,8 @@ from azure.ai.inference.models import SystemMessage, UserMessage
 from azure.core.credentials import AzureKeyCredential
 
 from Gradio_UI import GradioUI
+from dotenv import load_dotenv
+import os
 
 # Simple response object to match smolagents expectations
 class ChatMessage:
@@ -93,9 +95,11 @@ class AzureModel:
             return ChatMessage(f"Error calling Azure API: {str(e)}")
 
 # Azure API configuration
-endpoint = "https://models.github.ai/inference"
-model_name = "meta/Meta-Llama-3.1-8B-Instruct"
-token = "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"
+load_dotenv()  # Loads from .env by default
+
+endpoint = os.getenv("AZURE_ENDPOINT")
+model_name = os.getenv("AZURE_MODEL_NAME")
+token = os.getenv("AZURE_TOKEN")
 
 @tool
 def summarize_webpage(url: str) -> str:
