@@ -1,3 +1,4 @@
+<!--
 ---
 title: Web Agent
 emoji: 🌐
@@ -11,9 +12,8 @@ tags:
 - smolagents
 - agent
 - smolagent
-- tool
-- agent-course
 ---
+-->
 
 # Web Search Agent
 
